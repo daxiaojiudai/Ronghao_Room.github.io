@@ -37,7 +37,7 @@
         var now = new Date();
         var time = parseInt((seckillTime - now) / 1000);
         if (time <= 0) {
-            clearInterval(timerId);
+            clearInterval(timer);
             time = 0;
         }
         var hours = parseInt(time / 3600);
