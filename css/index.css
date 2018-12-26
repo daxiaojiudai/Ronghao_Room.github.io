@@ -166,7 +166,7 @@
 }
 
 .seckill_content {
-    overflow: scroll;
+    overflow: hidden;
     background-color: #fff;
 }
 .seckill_content li {
