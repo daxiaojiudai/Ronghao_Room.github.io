@@ -108,7 +108,7 @@
             v.classList.remove('now');
         })
         olLis[index-1].classList.add('now');
-    })
+    });
 
     // 封装函数,处理兼容性
     function addTransition() {
