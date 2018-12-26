@@ -168,3 +168,15 @@
     })
 
 })();
+
+
+;(function () {
+    
+    window.addEventListener('load', function () {
+        new IScroll(".seckill_content", {
+            scrollX: true,
+            scrollY: false
+        })
+    })
+
+})();
